@@ -5,7 +5,7 @@ This website showcases the food items that The Three Ted's offer in Stradbally, 
 ## Features
 
 ### Existing features
-
+I have set the menu link to underline when we hover over it with the cursor, to provide visual clue to the user what link they are about to click on. Also I will display a bottom border on the current page being viewed
 #### Home page
 
 #### About us page

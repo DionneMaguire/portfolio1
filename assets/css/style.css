@@ -33,8 +33,24 @@ h1, h2 {
     float: right;
 }
 
+#menu, #logo {
+    line-height: 75px;
+}
+
 #menu li {
     float: left;
     list-style-type: none;
     margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
