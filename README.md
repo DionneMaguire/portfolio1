@@ -20,4 +20,3 @@ To update the site to include a diary so that customers can check availability f
 ## Deployment
 
 ## Credits
-
