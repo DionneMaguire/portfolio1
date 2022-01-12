@@ -95,3 +95,73 @@ h1, h2 {
 
     position: absolute;
 }
+
+/* products section*/
+
+#products-title {
+    padding: 50px;
+    font-size: 200%;
+}
+
+#products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 70px;
+    height: 500px;
+}
+
+.pizza-kit {
+    background: url('../images/pizza-kit.jpg') no-repeat;
+    grid-column: 1;
+    grid-row: 1;
+    max-width: 100%;
+}
+
+.pizza-kit-text {
+    align-self: end;
+    grid-column: 1;
+    font-size: 150%;
+    color: #fcf9f9
+}
+
+.grazing-platter {
+    background: url('../images/platter.jpg') no-repeat;
+    grid-column: 2;
+    grid-row: 1;
+    max-width: 100%;
+}
+
+.grazing-platter-text {
+    align-self: end;
+    grid-column: 2;
+    font-size: 150%;
+    color: #0e0d0d
+}
+
+.sandwich-pack {
+    background: url('../images/sandwich-pack.jpg') no-repeat;
+    grid-column: 3;
+    grid-row: 1;
+    max-width: 100%;
+}
+
+.sandwich-pack-text {
+    align-self: end;
+    grid-column: 3;
+    font-size: 150%;
+    color: #0e0d0d
+}
+
+.sausage-and-blaa {
+    background: url('../images/blaas.jpg') no-repeat;
+    grid-column: 4;
+    grid-row: 1;
+    max-width: 100%;
+}
+
+.sausage-and-blaa-text {
+    align-self: end;
+    grid-column: 4;
+    font-size: 150%;
+    color: #0a0a0a
+}

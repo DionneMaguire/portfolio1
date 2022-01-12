@@ -10,6 +10,10 @@ I have set the menu link to underline when we hover over it with the cursor, to 
 
 #### About us page
 
+#### Product Details page
+
+#### Enquiries page
+
 ### Features left to implement
 To update the site to include a diary so that customers can check availability for catering or ordering opportunities.
 
@@ -20,3 +24,5 @@ To update the site to include a diary so that customers can check availability f
 ## Deployment
 
 ## Credits
+I went with the same fonts as Love Running, but it is something I might revisit if I have time.
+I used this video on CSS grid to help me with the product section of the home page CSS Grid Tutorial: Responsive Design Examples.
