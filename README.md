@@ -10,6 +10,7 @@ In the footer with the social media links I have set the links to open in a new 
 I have set the menu link to underline when we hover over it with the cursor, to provide visual clue to the user what link they are about to click on. Also I will display a bottom border on the current page being viewed.
 #### Home page
 The hero image is a background image but for it to be accessible I added a aria-label with the description of the image.
+Added the product images as <img> so that I could add alt element for screen readers.
 
 #### About us page
 
