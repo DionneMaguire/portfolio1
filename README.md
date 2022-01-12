@@ -22,7 +22,7 @@ To update the site to include a diary so that customers can check availability f
 
 ## Testing
 As I added the social media links in the footer, I checked that they opened in a new tab and also opened to the correct site.
- 
+
 
 ### Validator testing
 
@@ -31,3 +31,4 @@ As I added the social media links in the footer, I checked that they opened in a
 ## Credits
 I went with the same fonts as Love Running, but it is something I might revisit if I have time.
 I used this video on CSS grid to help me with the product section of the home page CSS Grid Tutorial: Responsive Design Examples.
+I used the love running project to help with the process of setting up the Three Teds.

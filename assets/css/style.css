@@ -165,3 +165,24 @@ h1, h2 {
     font-size: 150%;
     color: #f50d0d;
 }
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer ul > li {
+    display: inline;
+}
+
+footer i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
