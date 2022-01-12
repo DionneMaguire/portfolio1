@@ -111,7 +111,7 @@ h1, h2 {
 }
 
 .pizza-kit {
-    background: url('../images/pizza-kit.jpg') no-repeat;
+    background: url('../images/pizza-kit.jpg') no-repeat center center;
     grid-column: 1;
     grid-row: 1;
     max-width: 100%;
@@ -121,11 +121,11 @@ h1, h2 {
     align-self: end;
     grid-column: 1;
     font-size: 150%;
-    color: #fcf9f9
+    color: #f9f9f9
 }
 
 .grazing-platter {
-    background: url('../images/platter.jpg') no-repeat;
+    background: url('../images/platter.jpg') no-repeat center center;
     grid-column: 2;
     grid-row: 1;
     max-width: 100%;
@@ -135,11 +135,11 @@ h1, h2 {
     align-self: end;
     grid-column: 2;
     font-size: 150%;
-    color: #0e0d0d
+    color: #f81010;
 }
 
 .sandwich-pack {
-    background: url('../images/sandwich-pack.jpg') no-repeat;
+    background: url('../images/sandwich-pack.jpg') no-repeat center center;
     grid-column: 3;
     grid-row: 1;
     max-width: 100%;
@@ -149,11 +149,11 @@ h1, h2 {
     align-self: end;
     grid-column: 3;
     font-size: 150%;
-    color: #0e0d0d
+    color: #f9f9f9;
 }
 
 .sausage-and-blaa {
-    background: url('../images/blaas.jpg') no-repeat;
+    background: url('../images/blaas.jpg') no-repeat center center;
     grid-column: 4;
     grid-row: 1;
     max-width: 100%;
@@ -163,5 +163,5 @@ h1, h2 {
     align-self: end;
     grid-column: 4;
     font-size: 150%;
-    color: #0a0a0a
+    color: #f50d0d;
 }

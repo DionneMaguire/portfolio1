@@ -5,8 +5,11 @@ This website showcases the food items that The Three Ted's offer in Stradbally, 
 ## Features
 
 ### Existing features
-I have set the menu link to underline when we hover over it with the cursor, to provide visual clue to the user what link they are about to click on. Also I will display a bottom border on the current page being viewed
+The header and footer elements are the same in all 4 pages.
+In the footer with the social media links I have set the links to open in a new tab so that the user will still have my site open. For these links I have added an aria-label for users who use screen readers.
+I have set the menu link to underline when we hover over it with the cursor, to provide visual clue to the user what link they are about to click on. Also I will display a bottom border on the current page being viewed.
 #### Home page
+The hero image is a background image but for it to be accessible I added a aria-label with the description of the image.
 
 #### About us page
 
@@ -18,6 +21,8 @@ I have set the menu link to underline when we hover over it with the cursor, to 
 To update the site to include a diary so that customers can check availability for catering or ordering opportunities.
 
 ## Testing
+As I added the social media links in the footer, I checked that they opened in a new tab and also opened to the correct site.
+ 
 
 ### Validator testing
 
