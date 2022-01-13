@@ -34,3 +34,4 @@ I went with the same fonts as Love Running, but it is something I might revisit 
 I used this video on CSS grid to help me with the product section of the home page CSS Grid Tutorial: Responsive Design Examples.
 I also used information from this video on youtube https://www.youtube.com/watch?v=9zBsdzdE4sM about css grid.
 I used the love running project to help with the process of setting up the Three Teds.
+I used w3schools.com website to help with creating and styling the textarea.
