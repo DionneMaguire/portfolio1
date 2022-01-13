@@ -203,7 +203,7 @@ footer i {
 
 /* enquiries page */
 
-.form-section {
+#enquiry-image {
     clear: left;
     background: url('../images/sausages-on-the-bbq.jpg') no-repeat center center;
     background-size: cover;
@@ -260,7 +260,6 @@ footer i {
     font-size: 100%;
     background-color: #f16c6b;
     color: #fafafa;
-    display: block;
 }
 
 .send-enquiry:hover {

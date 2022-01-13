@@ -17,7 +17,7 @@ Added the product images as <img> so that I could add alt element for screen rea
 #### Product Details page
 
 #### Enquiries page
-
+In the input form I have set the send enquiry and reset buttons to change colors when the users mouse is hovering. Also the input fields borders change color when the mouse hovers over each field.
 ### Features left to implement
 To update the site to include a diary so that customers can check availability for catering or ordering opportunities.
 
