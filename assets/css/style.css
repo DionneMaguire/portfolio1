@@ -189,3 +189,13 @@ footer i {
 #intro {
     clear: both;
 }
+
+#nat-rob-mark {
+    clear: both;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 20px;
+    align-content: center;
+    align-items: center;
+}
