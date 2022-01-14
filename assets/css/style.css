@@ -201,6 +201,23 @@ footer i {
     align-items: center;
 }
 
+/* product details page*/
+
+#product-details {
+    clear: both;
+    padding: 50px;
+}
+
+#product-detail-grid {
+    clear: both;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 20px;
+    align-content: center;
+    align-items: center;
+}
+
 /* enquiries page */
 
 #enquiry-image {
