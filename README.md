@@ -23,7 +23,7 @@ To update the site to include a diary so that customers can check availability f
 
 ## Testing
 As I added the social media links in the footer, I checked that they opened in a new tab and also opened to the correct site.
-
+[testing image](assets/images/Test1.png)
 
 ### Validator testing
 
