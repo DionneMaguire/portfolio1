@@ -23,11 +23,50 @@ To update the site to include a diary so that customers can check availability f
 
 ## Testing
 As I added the social media links in the footer, I checked that they opened in a new tab and also opened to the correct site.
-[testing image](assets/images/Test1.png)
+
+If you try and submit an empty form you get an warning message.
+
+![](assets/images/test-empty-form.png)
+
+If you enter an email address without a @ you get an error message.  HTML can't check if it is a valid email so I can just check if there is a @ present.
+
+![](assets/images/test-incorrect-email.png)
+
+When you fill in each element on the form and submit you get the congratulations message and the data that you have sent.
+
+![testing image](assets/images/Test1.png)
+
 
 ### Validator testing
 
 ## Deployment
+This site was deployed to GitHub pages. The steps to deploy are as follows:
+
+1. Open repository in GitHub
+
+![](assets/images/deployment1.png)
+
+2. Click settings and scroll down to GitHub pages
+
+![](assets/images/deployment2.png)
+
+3. At GitHub pages
+
+![](assets/images/deployment3.png)
+
+4. Here click on none and scroll down and select main
+
+![](assets/images/deployment4.png)
+
+5. Click save
+
+![](assets/images/deployment5.png)
+
+6. The page then displays the path that my site is published on
+
+![](assets/images/deployment6.png)
+
+The live link can be found here - https://dionnemaguire.github.io/portfolio1/index.html
 
 ## Credits
 I went with the same fonts as Love Running, but it is something I might revisit if I have time.
@@ -35,3 +74,4 @@ I used this video on CSS grid to help me with the product section of the home pa
 I also used information from this video on youtube https://www.youtube.com/watch?v=9zBsdzdE4sM about css grid.
 I used the love running project to help with the process of setting up the Three Teds.
 I used w3schools.com website to help with creating and styling the textarea.
+I used https://blog.duda.co/responsive-google-maps-for-your-website to add and make my google map responsive.
