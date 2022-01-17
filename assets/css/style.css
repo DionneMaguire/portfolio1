@@ -163,6 +163,12 @@ h1, h2 {
     color: #3a3a3a;
 }
 
+#location-map {
+    clear: both;
+    padding: 50px;
+    display: inline-block;
+}
+
 /* footer */
 
 footer {
@@ -283,3 +289,29 @@ footer i {
     background-color: #fafafa;
     color: #f16c6b;
 }
+
+/* Media queries */
+
+/* For medium screen sizes from 950px wide and down */
+/* for the menu */
+@media screen and (max-width: 950px) {
+
+    #menu {    
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+/* for the product section */
+
+    #products {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 70px;
+        height: 500px;
+    }
+
+}
+
+
