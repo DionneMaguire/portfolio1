@@ -1,27 +1,35 @@
 # The Three Teds
 
-This website showcases the food items that The Three Ted's offer in Stradbally, County Waterford.  The website shows images of the the different offerings and a google map to show exactly where The Three Teds are, this is to help give new customers a feel for what The Three Teds can provide.  It also introduces Natalie, Rob and Mark to give background to ensure that the new customer will have full confidence that what they order will exceed their expectations. The details including costs of the different offerings are laid out so that the customer has all the information needed to make a decision. Finally they have an opportunity to contact The three teds for the final transaction.
+This website showcases the food items that The Three Ted's offer in Stradbally, County Waterford.  The website shows images of the the different offerings and a google map to show exactly where The Three Teds are, this is to help give new customers a feel for what The Three Teds can provide.  It also introduces Natalie, Rob and Mark to give background to ensure that the new customer can have full confidence that what they order will exceed their expectations. The details including costs of the different offerings are laid out so that the customer has all the information needed to make a decision. Finally they have an opportunity to contact The three teds for the final transaction. The site is targeted towards users in the Stradbally area interested in food and making life easier for themselves by what The Three Teds have to offer.
 
 ## Features
-
+##### Responsiveness
+The title and menu still look good at 1200px breakpoint for tablets, but needs changed for 950px breakpoint for phones.
+AMI responsive image goes here!!!
 ### Existing features
-
-The header and footer elements are the same in all 4 pages.
+#### Navigation
+At the top of the page, the navigation shows the company name in the left hand corner : The Three Teds
+The other navigation links are to the right : Home, About Us, Product Details and Enquiries which link to different pages.  The header and footer elements are the same in all 4 pages.
+I have used a dark text against a white background so that all is easy to read.
 In the footer with the social media links I have set the links to open in a new tab so that the user will still have my site open. For these links I have added an aria-label for users who use screen readers.
 I have set the menu link to underline when we hover over it with the cursor, to provide visual clue to the user what link they are about to click on. Also I will display a bottom border on the current page being viewed.
 
 #### Home page
 The hero image is a background image but for it to be accessible I added a aria-label with the description of the image.
-Added the product images as <img> so that I could add alt element for screen readers.
-
-##### Responsiveness
-The title and menu still look good at 1200px breakpoint for tablets, but needs changed for 950px breakpoint for phones.
+The over text on the hero image I have dark text on a pale red background again to make the text easily readable.
+The product section of the home page showcases 4 products that the three teds offer : DIY pizza kits, Grazing platters, Sandwich packs and Sausages and Blaas at Stradbally market.
+I added the product images as <img> so that I could add alt element for screen readers.
+Finally I have inserted a google map to show customers where Stradbally is, this is clickable to open a larger map in a new tab.
 
 #### About us page
+The About Us page introduces the user to the Three Teds : Natalie, Rob and Mark.  There is a picture and a write up about each of the Three Teds.
 
 #### Product Details page
+The product details page goes through the products mentioned on the home page but goes into more detail with prices and different options.  
 
 #### Enquiries page
+The enquiries page allows the user to contact The Three Teds with their name, email address and a text area with their query.
+The input form has been set so that the user can not enter an empty field on the form.
 In the input form I have set the send enquiry and reset buttons to change colors when the users mouse is hovering. Also the input fields borders change color when the mouse hovers over each field.
 ### Features left to implement
 To have a reviews section to display reviews by existing customers to again build confidence in what the Three teds provide.   
@@ -30,6 +38,7 @@ To update the site to include a diary so that customers can check availability f
 ## Testing
 As I added the social media links in the footer, I checked that they opened in a new tab and also opened to the correct site.
 
+In the Enquiries page:
 If you try and submit an empty form you get an warning message.
 
 ![](assets/images/test-empty-form.png)
@@ -44,6 +53,11 @@ When you fill in each element on the form and submit you get the congratulations
 
 
 ### Validator testing
+
+1 HTML - no errors returned when passing through the official W3C HTML validator
+2 CSS - No errors returned when passing through the W3C CSS validator
+3 Accessibility - I ran it through lighthouse in devtools and got the following results:
+
 
 ## Deployment
 This site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -81,3 +95,4 @@ I also used information from this video on youtube https://www.youtube.com/watch
 I used the love running project to help with the process of setting up the Three Teds.
 I used w3schools.com website to help with creating and styling the textarea.
 I used https://blog.duda.co/responsive-google-maps-for-your-website to add and make my google map responsive.
+I used http://unsplash.com for my hero image.

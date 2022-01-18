@@ -103,6 +103,10 @@ h1, h2 {
     font-size: 200%;
 }
 
+#product-wrap {
+    display: block;
+}
+
 #products {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -163,10 +167,13 @@ h1, h2 {
     color: #3a3a3a;
 }
 
+/* google map to show stradbally */
+
 #location-map {
     clear: both;
     padding: 50px;
-    display: inline-block;
+    display: block;
+    position: relative;
 }
 
 /* footer */
@@ -197,6 +204,10 @@ footer i {
     padding: 50px;
 }
 
+/*#nat-rob-mark-wrap {
+    display: block;
+}*/
+
 #nat-rob-mark {
     clear: both;
     display: grid;
@@ -205,6 +216,48 @@ footer i {
     grid-gap: 20px;
     align-content: center;
     align-items: center;
+}
+
+#nat-pic {
+    grid-column: 1;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+} 
+
+#nat-content {
+    grid-column: 2;
+}
+
+#rob-pic {
+    grid-column: 1;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+} 
+
+#rob-content {
+    grid-column: 2;
+}
+
+#mark-pic {
+    grid-column: 1;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+} 
+
+#mark-content {
+    grid-column: 2;
 }
 
 /* product details page*/
@@ -227,11 +280,15 @@ footer i {
 /* enquiries page */
 
 #enquiry-image {
+    height: 900px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
     clear: left;
     background: url('../images/sausages-on-the-bbq.jpg') no-repeat center center;
     background-size: cover;
     background-position: center;
-    height: 900px;
 }
 
 .enquiries {
@@ -296,12 +353,27 @@ footer i {
 /* for the menu */
 @media screen and (max-width: 950px) {
 
-    #menu {    
+    #menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: inline-block;
+    }
+
+    #menu li {
+        float: left;
+    }
+/*    #menu {    
         clear: left;
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+    }*/
+
+    #cover-text {
+        left: 0;
     }
 /* for the product section */
 
@@ -312,6 +384,24 @@ footer i {
         height: 500px;
     }
 
+    #product-detail-grid {
+        clear: both;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        align-content: center;
+        align-items: center;
+    }
 }
 
-
+/* For medium screen sizes from 630px wide and down */
+/* for the products */
+@media screen and (max-width: 630px) {
+    #products {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 70px;
+        height: 500px;
+    }
+    
+}
