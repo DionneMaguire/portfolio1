@@ -204,9 +204,9 @@ footer i {
     padding: 50px;
 }
 
-/*#nat-rob-mark-wrap {
+#nat-rob-mark-wrap {
     display: block;
-}*/
+}
 
 #nat-rob-mark {
     clear: both;
@@ -384,6 +384,32 @@ footer i {
         height: 500px;
     }
 
+/* for the map */
+
+    #location-map {
+        clear: both;
+        padding: 50px;
+        display: block;
+        position: relative;
+        top: 500px;
+    }
+
+/* for about us page */
+
+    #nat-rob-mark {
+        clear: both;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        height: auto;
+/*        grid-auto-rows: minmax(100px, auto);
+        grid-gap: 20px;
+        align-content: center;
+        align-items: center;*/
+    }
+
+/* for product details page */    
+    
     #product-detail-grid {
         clear: both;
         display: grid;
@@ -392,17 +418,8 @@ footer i {
         align-content: center;
         align-items: center;
     }
-
-/* for the map */
-
-#location-map {
-    clear: both;
-    padding: 50px;
-    display: block;
-    position: relative;
-    top: 500px;
 }
-}
+
 
 /* For medium screen sizes from 630px wide and down */
 /* for the products */
