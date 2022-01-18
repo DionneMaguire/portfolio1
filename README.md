@@ -2,6 +2,8 @@
 
 This website showcases the food items that The Three Ted's offer in Stradbally, County Waterford.  The website shows images of the the different offerings and a google map to show exactly where The Three Teds are, this is to help give new customers a feel for what The Three Teds can provide.  It also introduces Natalie, Rob and Mark to give background to ensure that the new customer can have full confidence that what they order will exceed their expectations. The details including costs of the different offerings are laid out so that the customer has all the information needed to make a decision. Finally they have an opportunity to contact The three teds for the final transaction. The site is targeted towards users in the Stradbally area interested in food and making life easier for themselves by what The Three Teds have to offer.
 
+![](assets/images/amiresponsive.png)
+
 ## Features
 ##### Responsiveness
 The title and menu still look good at 1200px breakpoint for tablets, but needs changed for 950px breakpoint for phones.
