@@ -156,7 +156,11 @@ h1, h2 {
     clear: both;
     padding: 50px;
     display: block;
-    position: relative;
+}
+
+#location-map iframe {
+    min-width: 90vw;
+    min-height: 70vh;
 }
 
 /* footer */
@@ -174,7 +178,7 @@ footer ul > li {
 }
 
 footer i {
-    font-size: 160%;
+    font-size: 1.6em;
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
@@ -364,17 +368,6 @@ footer i {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 70px;
-        height: 500px;
-    }
-
-/* for the map */
-
-    #location-map {
-        clear: both;
-        padding: 50px;
-        display: block;
-        position: relative;
-        top: 500px;
     }
 
 /* for about us page */
@@ -385,10 +378,6 @@ footer i {
         grid-template-columns: 1fr;
         grid-gap: 20px;
         height: auto;
-/*        grid-auto-rows: minmax(100px, auto);
-        grid-gap: 20px;
-        align-content: center;
-        align-items: center;*/
     }
 
 /* for product details page */    
@@ -411,13 +400,5 @@ footer i {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 70px;
-        height: 500px;
-    }
-    #location-map {
-        clear: both;
-        padding: 50px;
-        display: block;
-        position: relative;
-        top: 1000px;
     }
 }
