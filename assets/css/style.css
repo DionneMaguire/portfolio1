@@ -106,7 +106,7 @@ h1, h2 {
 
 #products-title {
     padding: 50px;
-    font-size: 200%;
+    font-size: 2.0em;
 }
 
 #product-wrap {
@@ -116,8 +116,13 @@ h1, h2 {
 #products {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 70px;
-    height: 500px;
+    grid-gap: 100px;
+}
+
+.product-text {
+    align-self: end;
+    font-size: 0.5em;
+    color: #3a3a3a;
 }
 
 .pizza-kit img {
@@ -126,25 +131,10 @@ h1, h2 {
     max-width: 100%;
 }
 
-.pizza-kit-text {
-    align-self: end;
-    grid-column: 1;
-    grid-row: 1;
-    font-size: 100%;
-    color: #3a3a3a;
-}
-
 .grazing-platter img {
     grid-column: 2;
     grid-row: 1;
     max-width: 100%;
-}
-
-.grazing-platter-text {
-    align-self: end;
-    grid-column: 2;
-    font-size: 100%;
-    color: #3a3a3a;
 }
 
 .sandwich-pack img {
@@ -153,25 +143,12 @@ h1, h2 {
     max-width: 100%;
 }
 
-.sandwich-pack-text {
-    align-self: end;
-    grid-column: 3;
-    font-size: 100%;
-    color: #3a3a3a;
-}
-
 .sausage-and-blaa img {
     grid-column: 4;
     grid-row: 1;
     max-width: 100%;
 }
 
-.sausage-and-blaa-text {
-    align-self: end;
-    grid-column: 4;
-    font-size: 100%;
-    color: #3a3a3a;
-}
 
 /* google map to show stradbally */
 
