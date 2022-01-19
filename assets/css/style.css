@@ -22,16 +22,19 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 4.0em;
     margin-left: 30px;
+    padding: 70px;
 }
 
 /* navigational links */
 
 #menu {
-    font-size: 110%;
+    font-size: 1.1em;
     letter-spacing: 4px;
     float: right;
+    font-weight: 600;
+    padding-top: 70px
 }
 
 #menu, #logo {
