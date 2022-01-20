@@ -193,7 +193,8 @@ footer i {
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax( 230px, 1fr));
+/*    grid-template-columns: repeat(auto-fill, minmax( 230px, 1fr));*/
+    grid-template-columns: auto auto auto;
     grid-gap: 20px;
     padding: 50px;
 }
@@ -207,7 +208,7 @@ footer i {
 }
 
 .card img {
-    object-fit: cover;
+    object-fit: contain;
     height: 100%;
     width: 100%;
 }
@@ -306,6 +307,19 @@ footer i {
 
 /* Media queries */
 
+/* For medium screen sizes from 1200px wide and down */
+/* for the menu */
+@media screen and (max-width: 1200px) {
+
+    #menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: inline-block; 
+        text-align: center;
+    }
+}
 /* For medium screen sizes from 950px wide and down */
 /* for the menu */
 @media screen and (max-width: 950px) {
@@ -342,7 +356,7 @@ footer i {
 
 /* for about us page */
 
-    #nat-rob-mark {
+    .cards {
         clear: both;
         display: grid;
         grid-template-columns: 1fr;
