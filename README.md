@@ -98,3 +98,4 @@ I used the love running project to help with the process of setting up the Three
 I used w3schools.com website to help with creating and styling the textarea.
 I used https://blog.duda.co/responsive-google-maps-for-your-website to add and make my google map responsive.
 I used http://unsplash.com for my hero image.
+I used w3schools and developer.mozilla.org to set up css cards in about us page.

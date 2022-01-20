@@ -191,60 +191,25 @@ footer i {
     padding: 50px;
 }
 
-#nat-rob-mark-wrap {
-    display: block;
-}
-
-#nat-rob-mark {
-    clear: both;
+.cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: repeat(auto-fill, minmax( 230px, 1fr));
     grid-gap: 20px;
-    align-content: center;
-    align-items: center;
+    padding: 50px;
 }
 
-#nat-pic {
-    grid-column: 1;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-} 
-
-#nat-content {
-    grid-column: 2;
+.card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+/* add shadow to give card effect */
+    box-shadow: 0 6px 10px 0 rgba( 0, 0, 0, 0.5);
+    transition: 0.3s;    
 }
 
-#rob-pic {
-    grid-column: 1;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-} 
-
-#rob-content {
-    grid-column: 2;
-}
-
-#mark-pic {
-    grid-column: 1;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-} 
-
-#mark-content {
-    grid-column: 2;
+.card img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 
 /* product details page*/
