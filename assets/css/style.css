@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    outline: solid 1px #f00 !important;
 }
 body {
     font-family: Lato, sans-serif;
@@ -154,17 +155,15 @@ h1, h2 {
 
 #location-map {
     clear: both;
-    padding: 50px;
+    margin: 10px;
     display: block;
-    outline: solid 1px #f00 !important;
 }
 
 #location-map iframe {
     min-width: 90vw;
-    min-height: 70vh;
+    min-height: 70vh; 
     object-fit: contain;
     overflow: hidden;
-    outline: solid 1px rgb(2, 90, 31) !important;
 }
 
 /* footer */
@@ -316,14 +315,12 @@ footer i {
 @media screen and (max-width: 1200px) {
 
     #menu {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    /*    display: inline-block;*/ 
-        text-align: center;
+        clear: left;
         float: left;
         margin-left: 30px;
+        margin-bottom: 20px;
+        padding-top: 25px;
+        line-height: 25px;
     }
 }
 /* For medium screen sizes from 950px wide and down */
@@ -365,15 +362,12 @@ footer i {
 
 
 /* For medium screen sizes from 650px wide and down */
-/* for the products */
+/* for the header and hero cover text */
 @media screen and (max-width: 650px) {
     
-    #menu {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-    /*    display: inline-block; */
+    #menu li {
+        float: none;
+        width: 100%;
     }
 
     #cover-text {
@@ -382,7 +376,7 @@ footer i {
         text-align: left;
         width: 90vw;
     }    
-
+/* for the products */
     #products {
         display: grid;
         grid-template-columns: 1fr;
