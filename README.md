@@ -89,7 +89,7 @@ The product details page goes through the products mentioned on the home page bu
 
 ![testing image](assets/images/Test1.png)
 - I tested all the above on the development site and the fully deployed site
-- I tested that my website worked on different browsers - chrome, Safari.
+- I tested that my website worked on different browsers - Google chrome, Safari, Microsoft edge, Explorer, Mozilla Firefox
 - I tested that my website is responsive, looks good and functions on all standard screen sizes using devtools.
 - I have also manually tested on a number of different devices - android phone, ipad.
 
@@ -139,3 +139,5 @@ This site was deployed to GitHub pages. The steps to deploy are as follows:
 - I used https://blog.duda.co/responsive-google-maps-for-your-website to add the google map.
 - I used http://crushpixel.com for my hero image.
 - I used w3schools and developer.mozilla.org to set up css cards in the about us page.
+- I searched on slack for issues that I was having to see had anyone else had similar problems.
+- 
