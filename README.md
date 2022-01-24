@@ -140,4 +140,3 @@ This site was deployed to GitHub pages. The steps to deploy are as follows:
 - I used http://crushpixel.com for my hero image.
 - I used w3schools and developer.mozilla.org to set up css cards in the about us page.
 - I searched on slack for issues that I was having to see had anyone else had similar problems.
-- 
