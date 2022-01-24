@@ -54,9 +54,18 @@ I have inserted a google map to show customers where Stradbally is, this is clic
 ![about us page](documents/images/about-us-feature.png)
 
 ### Product Details page
-The product details page goes through the products mentioned on the home page but goes into more detail with prices and different options.  
+- The product details page goes through the products mentioned on the home page but goes into more detail with prices and different options.  
+- Gives the user all the information they need to make a decision on if The Three Teds offer what they want and at a price they are willing to pay
 
-![product detail page](documents/images/product-detail-feature.png)
+![product detail page](documents/images/prod-det-pizza.png)
+
+![product detail page](documents/images/prod-det-graz.png)
+
+![product detail page](documents/images/prod-det-sand.png)
+
+![product detail page](documents/images/prod-det-blaa.png)
+
+![product detail page](documents/images/prod-det-cater.png)
 
 ### Enquiries page
 - The enquiries page allows the user to contact The Three Teds with their name, email address and a text area with their query.
@@ -87,11 +96,12 @@ The product details page goes through the products mentioned on the home page bu
 
 - When you fill in each element on the form and submit you get the congratulations message and the data that you have sent.
 
-![testing image](documents/images/Test1.png)
+![testing image](documents/images/form-test.png)
+
 - I tested all the above on the development site and the fully deployed site
-- I tested that my website worked on different browsers - Google chrome, Safari, Microsoft edge, Explorer, Mozilla Firefox
+- I tested that my website worked on different browsers - Google chrome, Safari, Microsoft edge, Mozilla Firefox
 - I tested that my website is responsive, looks good and functions on all standard screen sizes using devtools.
-- I have also manually tested on a number of different devices - android phone, ipad.
+- I have also manually tested on a number of different devices - android phone, iphone, ipad, mini ipad.
 
 
 ### Validator testing
