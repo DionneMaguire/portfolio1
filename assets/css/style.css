@@ -130,31 +130,6 @@ h1, h2 {
     color: #3a3a3a;
 }
 
-/*.pizza-kit img {
-    grid-column: 1;
-    grid-row: 1;
-    max-width: 100%;
-}
-
-.grazing-platter img {
-    grid-column: 2;
-    grid-row: 1;
-    max-width: 100%;
-}
-
-.sandwich-pack img {
-    grid-column: 3;
-    grid-row: 1;
-    max-width: 100%;
-}
-
-.sausage-and-blaa img {
-    grid-column: 4;
-    grid-row: 1;
-    max-width: 100%;
-}*/
-
-
 /* google map to show stradbally */
 
 #location-map {
@@ -196,9 +171,6 @@ footer i {
 #intro {
     clear: both;
     padding: 50px;
-}
-
-#intro h2, p {
     text-align: center;
 }
 
@@ -282,6 +254,10 @@ footer i {
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
+}
+/* to change grey placeholder text to white */
+::placeholder {
+    color: #fff;
 }
 
 .text-input:hover {
@@ -386,6 +362,10 @@ footer i {
         font-size: 0.8em;
         text-align: left;
         width: 90vw;
+    }
+    
+    #location-map {
+        margin: 2px;
     }
     
     #location-map iframe {
