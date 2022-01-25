@@ -24,7 +24,7 @@ The Three Teds website showcases the food items that The Three Teds offer in Str
 ![hero feature](documents/images/hero-feature.png)
 
 #### Product section
-- The product section of the home page showcases 4 products that The Three Teds offer: 
+- The product section of the home page showcases the four products that The Three Teds offer: 
 - DIY pizza kits 
 - Grazing platters 
 - Sandwich packs

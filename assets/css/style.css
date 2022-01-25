@@ -76,7 +76,7 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url('../images/hero.jpg') no-repeat center center;
+    background: url('../images/hero.webp') no-repeat center center;
     background-size: cover;
     background-position: center;
 }
@@ -227,7 +227,7 @@ footer i {
 
     position: relative;
     clear: left;
-    background: url('../images/sausages-on-the-bbq.jpg') no-repeat center center;
+    background: url('../images/sausages-on-the-bbq.webp') no-repeat center center;
     background-size: cover;
     background-position: center;
 }
