@@ -112,6 +112,13 @@ The Three Teds website showcases the food items that The Three Teds offer in Str
 - CSS - No errors returned when passing through the W3C CSS validator
 - Accessibility - I ran it through lighthouse in devtools and got the following results:
 
+1 For desktop:
+
+![](documents/images/lighthouse-desktop.png)
+
+2 For mobile:
+
+![](documents/images/lighthouse-mobile.png)
 
 ## Deployment
 This site was deployed to GitHub pages. The steps to deploy are as follows:
