@@ -82,6 +82,22 @@ The Three Teds website showcases the food items that The Three Teds offer in Str
 - To update the site to include a diary so that customers can check availability for catering or ordering opportunities.
 
 ## Testing
+
+### Validator testing
+
+- HTML - no errors returned when passing through the official W3C HTML validator
+- CSS - no errors returned when passing through the W3C CSS validator
+- Accessibility - I ran it through lighthouse in devtools and got the following results:
+
+1 For desktop:
+
+![Lighthouse results for desktop](documents/images/lighthouse-desktop.png)
+
+2 For mobile:
+
+![Lighthouse results for mobile](documents/images/lighthouse-mobile.png)
+
+### Manual Testing
 - I checked that the navigation links worked and took the user to the correct page on all 4 pages.
 - I checked that if I hovered on the navigation link the name was underlined.
 - I checked that clicking the google map worked.
@@ -90,35 +106,26 @@ The Three Teds website showcases the food items that The Three Teds offer in Str
 - In the Enquiries page I checked:
 - If you try and submit an empty form you get an warning message.
 
-![](documents/images/test-empty-form.png)
+![Test for empty form](documents/images/test-empty-form.png)
 
 - If you enter an email address without a @ you get an error message.  HTML can't check if it is a valid email so I can just check if there is a @ present.
 
-![](documents/images/test-incorrect-email.png)
+![Test for invalid email address](documents/images/test-incorrect-email.png)
 
 - When you fill in each element on the form and submit you get the congratulations message and the data that you have sent.
 
-![testing image](documents/images/form-test.png)
+![test correct form entry](documents/images/form-test.png)
 
 - I tested all the above on the development site and the fully deployed site
 - I tested that my website worked on different browsers - Google chrome, Safari, Microsoft edge, Mozilla Firefox
 - I tested that my website is responsive, looks good and functions on all standard screen sizes using devtools.
 - I have also manually tested on a number of different devices - android phone, iphone, ipad, mini ipad.
 
+### Bugs and fixes
 
-### Validator testing
+- Initially I had my images as jpeg files and this was giving me performance issues so I converted them to webp files and compressed them.
 
-- HTML - no errors returned when passing through the official W3C HTML validator
-- CSS - No errors returned when passing through the W3C CSS validator
-- Accessibility - I ran it through lighthouse in devtools and got the following results:
-
-1 For desktop:
-
-![](documents/images/lighthouse-desktop.png)
-
-2 For mobile:
-
-![](documents/images/lighthouse-mobile.png)
+- 
 
 ## Deployment
 This site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -150,7 +157,7 @@ This site was deployed to GitHub pages. The steps to deploy are as follows:
 - The live link can be found here - https://dionnemaguire.github.io/portfolio1/index.html
 
 ## Credits
-- I went with the same fonts as Love Running, they are clear and easy to read.
+- I went with the same fonts as Love Running, they are clear and easy to read, these are from font awesome.
 - I used this video on CSS grid to help me with the product section of the home page CSS Grid Tutorial: Responsive Design Examples.
 - I also used information from this video on youtube https://www.youtube.com/watch?v=9zBsdzdE4sM about css grid.
 - I used the love running project to help with the process of setting up the Three Teds.
@@ -159,3 +166,5 @@ This site was deployed to GitHub pages. The steps to deploy are as follows:
 - I used http://crushpixel.com for my hero image.
 - I used w3schools and developer.mozilla.org to set up css cards in the about us page.
 - I searched on slack for issues that I was having to see had anyone else had similar problems.
+- The images were compressed using  https://tinypng.com.
+- The jpeg images were converted to webp using https://convertio.co
