@@ -30,11 +30,13 @@ The Three Teds website showcases the food items that The Three Teds offer in Str
 - Sandwich packs
 - Sausages and Blaas at Stradbally market.
 - I added the product images as an image tag so that I could add alt element for screen readers.
+- The pictures give customers a clear idea of what they will get if they order from The Three Teds.
 
 ![product feature](documents/images/product-feature.png)
 
 ##### Map section
-I have inserted a google map to show customers where Stradbally is, this is clickable to open a larger map in a new tab.
+- I have inserted a google map to show customers where Stradbally is.
+- The map is clickable to open a larger map in a new tab, so customers still have my website open.
 
 ![map feature](documents/images/map-feature.png)
 
@@ -46,7 +48,7 @@ I have inserted a google map to show customers where Stradbally is, this is clic
 ![footer feature](documents/images/footer-feature.png)
 
 ### About us page
-- This page gives a little background and introduction to how the The Three Teds came about, to give the user information and build confidence.
+- This page gives a little background and introduction as to how the The Three Teds came about, to give the user information and build confidence.
 - It introduces the user to the Three Teds : Natalie, Rob and Mark.  
 - There is a picture and a write up about each of the Three Teds.  
 - The user can be confident in their hygiene and food standards with all having HACCP level 1.

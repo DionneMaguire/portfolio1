@@ -217,6 +217,7 @@ footer i {
     height: 70%;
     width: 70%;
 }
+
 /* enquiries page */
 
 #enquiry-image {
@@ -307,7 +308,7 @@ footer i {
     }
 }
 /* For smaller screen sizes from 950px wide and down */
-/* for the menu */
+/* for cover text */
 @media screen and (max-width: 950px) {
 
     #cover-text {
@@ -357,12 +358,16 @@ footer i {
         width: 100%;
     }
 
+/* for the cover text */
+
     #cover-text {
         left: 0;
         font-size: 0.8em;
         text-align: left;
         width: 90vw;
     }
+
+/* for the location map */    
     
     #location-map {
         margin: 2px;
