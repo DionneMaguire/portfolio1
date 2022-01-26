@@ -124,6 +124,7 @@ The Three Teds Website showcases the food items that The Three Teds offer in Str
 ### Bugs and fixes
 
 - Initially I had my images as jpeg files and this was giving me performance issues so I converted them to webp files and compressed them.
+- I have an issue with my images in About us, Natalie and Rob look a little stretched at some screen sizes but I felt that was better than having different sized images.
 
 ## Deployment
 This site was deployed to GitHub pages. The steps to deploy are as follows:
