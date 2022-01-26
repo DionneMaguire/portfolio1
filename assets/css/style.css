@@ -107,6 +107,7 @@ h1, h2 {
 #products-title {
     padding: 50px;
     font-size: 2.0em;
+    text-align: center;
 }
 
 #product-wrap {
@@ -128,7 +129,6 @@ h1, h2 {
     align-self: end;
     font-size: 0.5em;
     color: #3a3a3a;
-    text-align: center;
 }
 
 /* google map to show stradbally */
@@ -297,7 +297,7 @@ footer i {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: #720303;
     color: #fafafa;
 }
 
