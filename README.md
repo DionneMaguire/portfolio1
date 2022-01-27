@@ -14,7 +14,7 @@ The Three Teds Website showcases the food items that The Three Teds offer in Str
 - Also I have displayed a bottom border on the current page being viewed.
 - The header is the same across the four pages for consistency.
 
-![navigation feature](documents/images/nav-features.webp)
+![navigation feature](documents/images/nav-feature.webp)
 
 ### Home page
 - The landing page is an image of people having a great time with food.
