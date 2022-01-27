@@ -14,7 +14,7 @@ The Three Teds Website showcases the food items that The Three Teds offer in Str
 - Also I have displayed a bottom border on the current page being viewed.
 - The header is the same across the four pages for consistency.
 
-![navigation feature](documents/images/nav-features.png)
+![navigation feature](documents/images/nav-features.webp)
 
 ### Home page
 - The landing page is an image of people having a great time with food.
@@ -32,20 +32,20 @@ The Three Teds Website showcases the food items that The Three Teds offer in Str
 - I added the product images as an image tag so that I could add alt element for screen readers.
 - The pictures give customers a clear idea of what they will get if they order from The Three Teds.
 
-![product feature](documents/images/product-feature.png)
+![product feature](documents/images/product-feature.webp)
 
 ##### Map section
 - I have inserted a google map to show customers where Stradbally is.
 - The map is clickable to open a larger map in a new tab, so customers still have my website open.
 
-![map feature](documents/images/map-feature.png)
+![map feature](documents/images/map-feature.webp)
 
 ##### Footer section
 - The footer element is the same in all 4 pages for consistency.
 - In the footer, I have set the social media links to open in a new tab so that the user will still have my site open.
 - For these links I have added an aria-label for users who use screen readers.
 
-![footer feature](documents/images/footer-feature.png)
+![footer feature](documents/images/footer-feature.webp)
 
 ### About us page
 - This page gives a little background and introduction as to how the The Three Teds came about, to give the user information and build confidence.
@@ -53,21 +53,13 @@ The Three Teds Website showcases the food items that The Three Teds offer in Str
 - There is a picture and a write up about each of the Three Teds.  
 - The user can be confident in their hygiene and food standards with all having HACCP level 1.
 
-![about us page](documents/images/about-us-feature.png)
+![about us page](documents/images/about-us-feature.webp)
 
 ### Product Details page
 - The product details page goes through the products mentioned on the home page but goes into more detail with prices and different options.  
 - Gives the user all the information they need to make a decision on if The Three Teds offer what they want and at a price they are willing to pay.
 
-![product detail page](documents/images/prod-det-pizza.png)
-
-![product detail page](documents/images/prod-det-graz.png)
-
-![product detail page](documents/images/prod-det-sand.png)
-
-![product detail page](documents/images/prod-det-blaa.png)
-
-![product detail page](documents/images/prod-det-cater.png)
+![product detail page](documents/images/product-detail.webp)
 
 ### Enquiries page
 - The enquiries page allows the user to contact The Three Teds with their name, email address and a text area with their query.
@@ -75,11 +67,11 @@ The Three Teds Website showcases the food items that The Three Teds offer in Str
 - In the input form I have set the send enquiry and reset buttons to change colors when the users mouse is hovering. 
 - The input fields borders change color when the mouse hovers over each field.
 
-![enquiries page](documents/images/enquiries-feature.png)
+![enquiries page](documents/images/enquiries-feature.webp)
 
 ### Future features left to implement
-- To have a reviews section to display reviews by existing customers to again build confidence in what The Three Teds provide.   
-- To update the site to include a diary so that customers can check availability for catering or ordering opportunities.
+- In the future I could add a reviews section to display reviews by existing customers to again build confidence in what The Three Teds provide.   
+- Also in the future I could update the site to include a diary so that customers can check availability for catering or ordering opportunities.
 
 ## Testing
 
@@ -106,11 +98,11 @@ The Three Teds Website showcases the food items that The Three Teds offer in Str
 - In the enquiries page I checked:
 - If you try and submit an empty form you get an warning message.
 
-![Test for empty form](documents/images/test-empty-form.png)
+![Test for empty form](documents/images/test-empty-form.webp)
 
 - If you enter an email address without a @ you get an error message.  HTML can't check if it is a valid email so I can just check if there is a @ present.
 
-![Test for invalid email address](documents/images/test-incorrect-email.png)
+![Test for invalid email address](documents/images/test-incorrect-email.webp)
 
 - When you fill in each element on the form and submit you get the congratulations message and the data that you have sent.
 
@@ -124,7 +116,7 @@ The Three Teds Website showcases the food items that The Three Teds offer in Str
 ### Bugs and fixes
 
 - Initially I had my images as jpeg files and this was giving me performance issues so I converted them to webp files and compressed them.
-- I have an issue with my images in About us, Natalie and Rob look a little stretched at some screen sizes but I felt that was better than having different sized images.
+- I am not completely happy with how the product detail page looks but didn't find a solution in time for this submission. So maybe in the future I could look at product cards to show the information and images in a more pleasing way.
 
 ## Deployment
 This site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -159,7 +151,7 @@ This site was deployed to GitHub pages. The steps to deploy are as follows:
 - I went with the same fonts as Love Running, they are clear and easy to read, these are from Font Awesome.
 - I used this video on CSS grid to help me with the product section of the home page CSS Grid Tutorial: Responsive Design Examples.
 - I also used information from this video on youtube https://www.youtube.com/watch?v=9zBsdzdE4sM about css grid.
-- I used the Love Running Project to help with the process of setting up the Three Teds.
+- I used the Love Running Project to help with the process of setting up The Three Teds.
 - I used w3schools.com website to help with creating and styling the textarea.
 - I used https://blog.duda.co/responsive-google-maps-for-your-website to add the google map.
 - I used http://crushpixel.com for my hero image.
@@ -167,3 +159,4 @@ This site was deployed to GitHub pages. The steps to deploy are as follows:
 - I searched on Slack for issues that I was having to see had anyone else had similar problems.
 - The images were compressed using  https://tinypng.com.
 - The jpeg images were converted to webp using https://convertio.co.
+- I got great help and tips from my msletb-nov-2021 cohort, our facilitator Kasia and my mentor Okwudiri Okoro.
