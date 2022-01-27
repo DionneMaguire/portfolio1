@@ -107,8 +107,6 @@ h1, h2 {
 /* products section*/
 
 #products-title {
- /*   padding: 50px; */
-/*    font-size: 2.0em; */
     text-align: center;
 }
 
@@ -158,6 +156,7 @@ footer {
 
 footer ul {
     text-align: center;
+/* add shadow to footer */    
     border: 2px solid #999696;
     box-shadow: 0 4px 8px 0 rgba( 0, 0, 0, 20%);
 }
@@ -200,7 +199,6 @@ footer i {
 }
 
 .card img {
-/*object-fit: contain;*/
     height: 100%;
     width: 100%;
 }
@@ -339,6 +337,7 @@ footer i {
     #cover-text {
         left: 0;
     }
+
 /* for the product section */
 
     #products {
@@ -405,6 +404,7 @@ footer i {
     }
 
 /* for the products */
+
     #products {
         display: grid;
         grid-template-columns: 1fr;
