@@ -242,7 +242,6 @@ footer i {
     width: 100%;
     overflow: hidden;
 
-    position: relative;
     clear: left;
     background: url('../images/sausages-on-the-bbq.webp') no-repeat center center;
     background-size: cover;
@@ -254,9 +253,8 @@ footer i {
     color: #fff;
     background-color: rgba(99, 34, 34, 0.6);
     max-width: 400px;
-    position: absolute;
-    left: 10%;
     padding: 30px;
+    margin-left: 10%;
 }
 
 .enquiries > h2 {
