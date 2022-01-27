@@ -150,12 +150,11 @@ h1, h2 {
 /* footer */
 
 footer {
-    height: 100px;
     padding-top: 20px;
+    text-align: center;
 }
 
 footer ul {
-    text-align: center;
 /* add shadow to footer */    
     border: 2px solid #999696;
     box-shadow: 0 4px 8px 0 rgba( 0, 0, 0, 20%);
@@ -166,7 +165,7 @@ footer ul > li {
 }
 
 footer i {
-    font-size: 1.6em;
+    font-size: 2.0em;
     margin: 1px;
     padding: 2px;
     color: #3a3a3a;
