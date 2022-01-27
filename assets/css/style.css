@@ -199,6 +199,7 @@ footer i {
 }
 
 .card img {
+    object-fit: contain;
     height: 100%;
     width: 100%;
 }
